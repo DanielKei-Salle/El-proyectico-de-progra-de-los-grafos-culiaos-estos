@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1792948362 source:d:\gabygrafocodeblocks\grafogaby\main.c
+1792963586 source:d:\gabygrafocodeblocks\grafogaby\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ibreria_grafo.h"
+
+1792964574 d:\gabygrafocodeblocks\grafogaby\ibreria_grafo.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

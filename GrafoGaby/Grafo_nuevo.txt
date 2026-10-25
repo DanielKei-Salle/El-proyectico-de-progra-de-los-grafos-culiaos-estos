@@ -1,1 +1,3 @@
-Pepe;PECAS;12
+Casa;Trabajo;12
+Bodega;Casa;12
+Panorama;Estanteria;12

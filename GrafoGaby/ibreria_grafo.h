@@ -531,9 +531,15 @@ void makeRoom(struct roomPos **startRoom,char *nombrearch)
 
         newRoom->nextRoom = NULL;           //Poner las conexiones de la nueva sala como vacios
         newRoom->startWay = NULL;
-        printf("Ingrese el Nombre de la sala a agregar:  ");            //Ingresar el nombre de la sala
-        scanf(" ");     gets(newRoom->nameInfo);
-
+        do
+        {
+            printf("Ingrese el Nombre de la sala a agregar:  ");            //Ingresar el nombre de la sala
+            scanf(" ");     gets(newRoom->nameInfo);
+            if(buscarsala(*startRoom,newRoom->nameInfo)!=-1)
+            {
+                printf("Ya existe una sala con ese nombre\n");
+            }
+        }while(buscarsala(*startRoom,newRoom->nameInfo)!=-1);
         printf("Desea agrgar conexiones a esta sala?  Si(1)  No(0)  ");
         addLoop=checkInt(0,1);
         while(addLoop==1)               //Ciclo que repite cada vez que se pretende agregar conexiones

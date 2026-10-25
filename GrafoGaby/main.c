@@ -51,6 +51,10 @@ int main()
             printf("Opcion invalida\n");
             break;
         }
+        if(opc==4)
+        {
+            break;
+        }
         do
         {
             printf("\n--MENU SECUNDARIO--\n1)Realizar simulacion de viaje\n2)Bloquear o desbloquear conexion\n3)Identificar nodo de mayor conexiones\n4)Aniadir nueva sala\n5)Agregar Camino\n6)Imprimir salas y conexiones\n7.Menu principal\n");

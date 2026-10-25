@@ -1,0 +1,19 @@
+Estanteria;Control de calidad;44
+Estanteria;Zona de descarga;37
+Estanteria;Zona de carga;22
+Zona de descarga;Zona de carga;25
+Zona de descarga;Mantenimiento;38
+Zona de carga;Estanteria;18
+Zona de carga;Zona de descarga;44
+Zona de carga;Control de calidad;3
+Zona de carga;Area de empaquetado;8
+Area de empaquetado;Almacen frio;27
+Area de empaquetado;Puerta de salida;11
+Almacen frio;Mantenimiento;23
+Almacen frio;Control de calidad;7
+Almacen frio;Area de empaquetado;21
+Almacen frio;Puerta de salida;15
+Almacen frio;Estanteria;42
+Mantenimiento;Zona de descarga;47
+Control de calidad;Area de empaquetado;25
+Control de calidad;Almacen frio;17
